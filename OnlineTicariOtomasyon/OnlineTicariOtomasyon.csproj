@@ -130,6 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KategoriController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -158,6 +159,25 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="web\401.html" />
+    <Content Include="web\404.html" />
+    <Content Include="web\500.html" />
+    <Content Include="web\assets\demo\chart-area-demo.js" />
+    <Content Include="web\assets\demo\chart-bar-demo.js" />
+    <Content Include="web\assets\demo\chart-pie-demo.js" />
+    <Content Include="web\assets\demo\datatables-demo.js" />
+    <Content Include="web\assets\img\error-404-monochrome.svg" />
+    <Content Include="web\charts.html" />
+    <Content Include="web\css\styles.css" />
+    <Content Include="web\index.html" />
+    <Content Include="web\js\datatables-simple-demo.js" />
+    <Content Include="web\js\scripts.js" />
+    <Content Include="web\layout-sidenav-light.html" />
+    <Content Include="web\layout-static.html" />
+    <Content Include="web\login.html" />
+    <Content Include="web\password.html" />
+    <Content Include="web\register.html" />
+    <Content Include="web\tables.html" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -183,6 +203,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Kategori\Index.cshtml" />
+    <Content Include="Views\Kategori\KategoriEkle.cshtml" />
+    <Content Include="Views\Kategori\KategoriGetir.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
